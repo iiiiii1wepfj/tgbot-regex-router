@@ -1,0 +1,27 @@
+{
+	"name": "keythkatz/tgbot-regex-router",
+	"description": "Conversational router for my Telegram bots.",
+	"type": "package",
+	"keywords": ["telegram"],
+	"homepage": "https://github.com/keythkatz/tgbot-regex-router",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jeremy Lim",
+			"email": "me@jerl.im",
+			"homepage": "https://jerl.im",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.2"
+	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+		"psr-4": {
+			"KeythKatz\\Bot\\": "src/"
+		}
+	}
+}
